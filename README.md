@@ -7,7 +7,7 @@ This directory tracks my common linux home directory config, and is meant to clo
 ```
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 echo ".cfg" >> .gitignore
-git clone --bare https://github.com/owllex/dotfiles.git $HOME/.cfg
+git clone --bare --recurse-submodules https://github.com/owllex/dotfiles.git $HOME/.cfg
 config checkout
 ```
 
