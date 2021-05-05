@@ -117,6 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 EDITOR=vim
-. ~/bash/.bash_prompt
-. ~/bash/.bash_aliases
-alias config='/usr/bin/git --git-dir=/home/alex/.cfg/ --work-tree=/home/alex'
+. ~/bash/.bashrc
