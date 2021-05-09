@@ -1,3 +1,6 @@
+set runtimepath+=~/vim,~/vim/after,~/vim/pack
+set viminfo+=n~/vim/viminfo
+
 filetype plugin indent on
 " show existing tab with 4 spaces width
 set tabstop=4
