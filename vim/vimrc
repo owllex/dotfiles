@@ -1,4 +1,5 @@
 set runtimepath+=~/vim,~/vim/after,~/vim/pack
+set packpath+=~/vim/pack
 set viminfo+=n~/vim/viminfo
 
 filetype plugin indent on
