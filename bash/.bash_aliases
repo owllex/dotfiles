@@ -3,3 +3,4 @@ alias bim=vim
 alias reload=". ~/.bashrc"
 alias u="cd .."
 alias goenv=". ~/mud/env/bin/activate"
+alias g="grep -iR"
