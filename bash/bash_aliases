@@ -1,4 +1,4 @@
-alias l="ls -l ${colorflag}"
+alias l="ls -CF"
 alias bim=vim
 alias reload=". ~/.bashrc"
 alias u="cd .."
