@@ -1,5 +1,7 @@
 #! /bin/bash
 
 function format() {
-    black `git status --porcelain=1 | sed "s/ M / /g" | sed "s/A  / /g"`
+    files=`git status --porcelain=1 | sed "/^D /d" | sed "s/ M / /g" | sed "s/A  / /g"`
+    echo "Formatting files: $files"
+    black $files
 }
