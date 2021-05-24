@@ -1,5 +1,5 @@
 #! /bin/bash
 
 function format() {
-    black `git status --porcelain=1 | sed "s/ M / /g" | sed "s/A  / /g`
+    black `git status --porcelain=1 | sed "s/ M / /g" | sed "s/A  / /g"`
 }
