@@ -1,6 +1,8 @@
 set runtimepath+=~/vim,~/vim/after,~/vim/pack
 set packpath+=~/vim/pack
 set viminfo+=n~/vim/viminfo
+set ignorecase
+set smartcase
 
 filetype plugin indent on
 " show existing tab with 4 spaces width
