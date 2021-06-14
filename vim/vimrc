@@ -1,8 +1,12 @@
 set runtimepath+=~/vim,~/vim/after,~/vim/pack
 set packpath+=~/vim/pack
 set viminfo+=n~/vim/viminfo
-set ignorecase
-set smartcase
+
+" Search
+set incsearch " Enable incremental search
+set hlsearch " Highlight results while searching
+set ignorecase " Search in case-insensitive mode
+set smartcase " Searches become case-sensitive when typing upper-case letters
 
 filetype plugin indent on
 " show existing tab with 4 spaces width
@@ -12,3 +16,4 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
+hi Search ctermbg=10
