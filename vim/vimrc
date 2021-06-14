@@ -16,4 +16,4 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
-hi Search ctermbg=10
+hi Search ctermbg=12 ctermfg=4
