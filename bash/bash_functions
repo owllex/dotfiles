@@ -2,6 +2,7 @@
 
 function format() {
     files=`git status --porcelain=1 | sed "s/^.. / /g"`
-    echo "Formatting files: $files"
+    echo "Formatting files:"
+    echo "$files"
     black $files
 }
